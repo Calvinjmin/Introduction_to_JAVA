@@ -9,5 +9,11 @@
 
 #fn1 {
     position: absolute;
-    bottom: 5;
+    bottom: 50;
+}
+
+.bottom {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
 }
