@@ -1,5 +1,13 @@
-.bottom {
+body {
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rights_reserved_text {
     position: absolute;
+    text-align: center;
     left: 40%;
-    bottom: 0;
+    bottom: 0%;
 }
