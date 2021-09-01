@@ -14,7 +14,7 @@ Note: Some exercises will link to either [hackerrank](https://hackerrank.com) or
 These sites are great resources that will help you practice your skills in JAVA and many other languages.
 I highly recommend creating accounts on these websites and completing as many problems as you can.
 
-## Chapters(Tentative)
+## Chapters (Tentative)
 Chapter 1 - Introduction  
 Chapter 2 - How to use Java  
 Chapter 3 - Introduction of Data Types  
@@ -23,4 +23,4 @@ Chapter 5 - Introduction of Data Structures Part 2 (Binary Tree, Heaps, Sets, an
 Chapter 6 - Memory and Efficiency  
  
  ## License
- Calvin Min © 2020. All Rights Reserved
+ Calvin Min © 2021. All Rights Reserved
