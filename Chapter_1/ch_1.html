@@ -1,59 +1,76 @@
-<html lang = html>
-    <link rel ="stylesheet" href="./ch_1.css">
-    <head>
-        <title>Chapter 1 - Introduction</title>
-    </head>
-    <body>
-        <!-- Navigation Bar -->
-        <navbar>
-            <ul class="navList">
-                <li ><a class="navItem" href="../index.html">Home</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Chapters</button>
-                    <div class="dropdown-content">
-                        <a href="./ch_1.html">Ch1 - Introduction</a>
-                        <a href="../Chapter_2/ch_2.html">Ch2 - Using Java</a>
-                    </div>
-                </div>
-            </ul>
-        </navbar>
+<html lang=html>
+<link rel="stylesheet" href="./ch_1.css">
+<head>
+    <title>Chapter 1 - Introduction</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+<navbar>
+    <ul class="navList">
+        <li><a class="navItem" href="../index.html">Home</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Chapters</button>
+            <div class="dropdown-content">
+                <a href="./ch_1.html">Ch1 - Introduction</a>
+                <a href="../Chapter_2/ch_2.html">Ch2 - Using Java</a>
+            </div>
+        </div>
+    </ul>
+</navbar>
 
-         <!-- Chapter 1 -->
-        <h1>Chapter 1 - Introduction</h1>
-        <p>Java is an object-oriented programming language<sup><a id="oop">1</a></sup> that is heavily utilized in back-end software development.
-            Developers use this language to create applications on computers. </p>
+<!-- Chapter 1 -->
+<h1>Chapter 1 - Introduction</h1>
+<p>Java is an object-oriented programming language<sup><a id="oop">1</a></sup> that is heavily utilized in back-end
+    software development.
+    Developers use this language to create applications on computers. </p>
 
-         <!-- Java Code Syntax -->
-        <p>Example of Java Syntax</p>
-        <pre class="code">System.out.println("Hello, World!)<span class="semi_colon">;</span></pre>
+<!-- Java Code Syntax -->
+<p>Example of Java Syntax</p>
+<pre class="code">System.out.println("Hello, World!)<span class="semi_colon">;</span></pre>
 
-         <!-- First Java Program (Repl.it) -->
-        <h3>Creating your first program in JAVA</h3>
-        <p>Use the following link to go to an online compiler:
-            <a href = "https://repl.it/"  target = "_blank">Repl.it</a></p>
-        <p>1. Click on the "Start Coding" icon</p>
-        <p>2. Create an account or log in with Google, GitHub, or Facebook</p>
-        <p>3. Click on the "+" icon and select "Java" as the repl language</p>
-        <p>4. Once you have created the repl, navigate to the file called "Main.java"</p>
-        <p>5. Control + A and delete everything on the left-hand side</p>
-        <p>6. Type in the following code once the left-hand console is empty</p>
+<!-- First Java Program (Repl.it) -->
+<h3>Creating your first program in JAVA</h3>
+<p>Use the following link to go to an online compiler:
+    <a href="https://repl.it/" target="_blank">Repl.it</a></p>
+<p>1. Click on the "Start Coding" icon</p>
+<p>2. Create an account or log in with Google, GitHub, or Facebook</p>
+<p>3. Click on the "+" icon and select "Java" as the repl language</p>
+<p>4. Once you have created the repl, navigate to the file called "Main.java"</p>
+<p>5. Control + A and delete everything on the left-hand side</p>
+<p>6. Type in the following code once the left-hand console is empty</p>
 
-        <!-- Code Snippet -->
-        <p class = "tab_code">Main Method <br><br> <code> class Main { <br> &ensp; public static void main( String [] args ) {
-            <br> &ensp; &ensp; //Printing Hello World! <br>
-            <code> &ensp; &ensp; System.out.println("Hello World!");</code> <br> &ensp; } <br> }</code></p>
+<!-- Code Snippet -->
+<p class="tab_code">Main Method <br><br> <code> class Main { <br> &ensp; public static void main( String [] args ) {
+    <br> &ensp; &ensp; //Printing Hello World! <br>
+    <code> &ensp; &ensp; System.out.println("Hello World!");</code> <br> &ensp; } <br> }</code></p>
 
-        <!-- First Java Program (Repl.it) - Continuation -->
-        <p>7. Press the "Run" button, and see "Hello World!" printed in the console</p>
+<!-- First Java Program (Repl.it) - Continuation -->
+<p>7. Press the "Run" button, and see "Hello World!" printed in the console</p>
 
-        <!-- First Method in Java -->
-        <h3>Creating your first method - Addition</h3>
+<!-- First Method in Java -->
+<h3>Creating your first method - Addition</h3>
 
-         <!-- Footnote -->
-        <div>1. Object-Oriented Programming Language: A language based on objects, instead of functions and procedures.
-            This gives the ability for individual objects to be grouped together and organized into classes.
-            <a href="#oop" title="Jump back to footnote 1 in the text.">go back</a></div>
+<!-- Code Snippet -->
+<p class="tab_code">Main Method <br><br> <code> class Main {
+    <br> &ensp; public static void main( String [] args ) {
+    <br> &ensp; &ensp; //Printing Hello World! <br>
+    <code> &ensp; &ensp; System.out.println("Hello World!");</code>
+    <br> &ensp; } </code>
+    <br>
+    <code class="codeRed">
+        &ensp; public int sum ( int a, int b ) {
+        <br> &ensp; &ensp; return a + b;
+        <br> &ensp; }
+    </code>
+    <br> }
+</p>
+<p></p>
 
-        <div class= "rights_reserved_text"><br>Calvin Min - 2021. All rights reserved.</div>
-    </body>
+<!-- Footnote -->
+<div>1. Object-Oriented Programming Language: A language based on objects, instead of functions and procedures.
+    This gives the ability for individual objects to be grouped together and organized into classes.
+    <a href="#oop" title="Jump back to footnote 1 in the text.">go back</a></div>
+
+<div class="rights_reserved_text"><br>Calvin Min - 2021. All rights reserved.</div>
+</body>
 </html>
